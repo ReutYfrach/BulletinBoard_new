@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36705.20 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BulletinBoardApi", "BulletinBoardApi\BulletinBoardApi.csproj", "{F1C895C7-8EBE-428C-B7DC-369986522B21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1C895C7-8EBE-428C-B7DC-369986522B21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1C895C7-8EBE-428C-B7DC-369986522B21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1C895C7-8EBE-428C-B7DC-369986522B21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1C895C7-8EBE-428C-B7DC-369986522B21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8CBFBA71-A61B-47D1-AD27-E57B6B5A097C}
+	EndGlobalSection
+EndGlobal

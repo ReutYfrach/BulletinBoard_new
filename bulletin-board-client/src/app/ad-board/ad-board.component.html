@@ -1,0 +1,66 @@
+<div class="container">
+    <div class="header">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap" rel="stylesheet">
+        <h1>Whats Good in the HOOD!</h1>
+        <p>Read & share posts in your own neighborhood on a pinboard based on your location</p>
+    </div>
+
+    <div class="ad-header">
+        <button class="add-btn" (click)="openAddModal()">➕Add New Ad</button>
+    </div>
+
+    <div class="search-bar">
+    <input
+        type="text"
+        placeholder="🔍Search for an ad by title..."
+        [(ngModel)]="searchText"
+    />
+    </div>
+  
+    <div class="ad-list">
+        <div class="ad-card" *ngFor="let ad of filterAds()">
+          <div class="ad-actions">
+            <button (click)="editAd(ad)" title="Edit">
+              ✏️
+            </button>
+            <button (click)="deleteAd(ad.id)" title="Delete">
+              🗑️
+            </button>
+          </div>
+      
+          <h2>{{ ad.title }}</h2>
+          <p class="meta">Posted by {{ ad.creator }} on {{ ad.createdAt | date:'medium' }}</p>
+          <p>{{ ad.description }}</p>
+          <img [src]="ad.imageUrl || 'assets/images/default.png'" alt="Ad Image" />
+          <p class="phone">
+            📞 <a [href]="'tel:' + ad.phone">{{ ad.phone }}</a>
+          </p>
+        </div>
+      </div>
+      
+    <div class="modal" *ngIf="showModal">
+        <div class="modal-content">
+        <h3>{{ selectedAd ? 'Edit Ad' : 'Add New Ad' }}</h3>
+    
+        <label>Title:</label>
+        <input [(ngModel)]="modalAd.title" placeholder="Enter title..." />
+    
+        <label>Description:</label>
+        <textarea [(ngModel)]="modalAd.description" placeholder="Enter description..."></textarea>
+    
+        <label>Phone:</label>
+        <input [(ngModel)]="modalAd.phone" placeholder="Enter phone number..." />
+    
+        <label>Image:</label>
+        <input type="file" (change)="onFileSelected($event)" />
+    
+        <div class="modal-actions">
+            <button (click)="saveModalAd()">
+            {{ selectedAd ? 'Save Changes' : 'Add Ad' }}
+            </button>
+            <button class="cancel" (click)="closeModal()">Cancel</button>
+        </div>
+        </div>
+    </div>
+  
+  

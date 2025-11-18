@@ -1,0 +1,82 @@
+[
+  {
+    "Id": 1,
+    "Title": "Bicycle for Sale",
+    "Description": "Almost new city bicycle, well maintained.",
+    "Category": "Buy/Sell",
+    "Creator": "John",
+    "CreatedAt": "2025-11-12T09:00:00",
+    "Phone": "054-1234567",
+    "ImageUrl": "image_1.png"
+  },
+  {
+    "Id": 2,
+    "Title": "Weekly Painting Class for Kids",
+    "Description": "Join our weekly painting class at the community center.",
+    "Category": "Community",
+    "Creator": "Emma",
+    "CreatedAt": "2025-11-12T10:30:00",
+    "Phone": "054-1234567",
+    "ImageUrl": "image_2.png"
+  },
+  {
+    "Id": 3,
+    "Title": "Selling Old Laptop",
+    "Description": "Used laptop in good condition, includes charger.",
+    "Category": "Buy/Sell",
+    "Creator": "Michael",
+    "CreatedAt": "2025-11-11T15:20:00",
+    "Phone": "054-1234567",
+    "ImageUrl": "image_3.png"
+  },
+  {
+    "Id": 4,
+    "Title": "Carpool to Downtown",
+    "Description": "Looking for people to share rides to downtown.",
+    "Category": "Community",
+    "Creator": "Sarah",
+    "CreatedAt": "2025-11-12T08:15:00",
+    "Phone": "054-1234567",
+    "ImageUrl": "image_4.png"
+  },
+  {
+    "Id": 5,
+    "Title": "Selling Used Textbooks",
+    "Description": "College textbooks in good condition, various subjects.",
+    "Category": "Buy/Sell",
+    "Creator": "David",
+    "CreatedAt": "2025-11-10T12:45:00",
+    "Phone": "054-1234567",
+    "ImageUrl": "image_5.png"
+  },
+  {
+    "Id": 6,
+    "Title": "Community Garden Volunteers Needed",
+    "Description": "Join our local community garden project. Tools provided.",
+    "Category": "Community",
+    "Creator": "Olivia",
+    "CreatedAt": "2025-11-09T09:30:00",
+    "Phone": "054-1234567",
+    "ImageUrl": "image_6.png"
+  },
+  {
+    "Id": 7,
+    "Title": "Selling Handmade Jewelry",
+    "Description": "Unique handmade necklaces and bracelets, perfect gifts.",
+    "Category": "Buy/Sell",
+    "Creator": "Sophia",
+    "CreatedAt": "2025-11-08T14:00:00",
+    "Phone": "054-1234567",
+    "ImageUrl": "image_7.png"
+  },
+  {
+    "Id": 8,
+    "Title": "Neighborhood Book Exchange",
+    "Description": "Swap your old books with neighbors. Free and fun!",
+    "Category": "Community",
+    "Creator": "Liam",
+    "CreatedAt": "2025-11-07T11:15:00",
+    "Phone": "054-1234567",
+    "ImageUrl": "image_8.png"
+  }
+]

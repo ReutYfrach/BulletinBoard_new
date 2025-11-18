@@ -1,0 +1,15 @@
+# Backend (C#)
+BulletinBoardApi/bin/
+BulletinBoardApi/obj/
+BulletinBoardApi/.vs/
+BulletinBoardApi/*.user
+
+# Frontend (Angular)
+bulletin-board-client/node_modules/
+bulletin-board-client/dist/
+
+# General
+*.log
+*.db
+.DS_Store
+Thumbs.db
